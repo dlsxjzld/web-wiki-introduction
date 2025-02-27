@@ -170,3 +170,50 @@ footer p {
   --divider-color: #efefef;
   --font-default-color: #333;
 }
+
+.comment-writing-container {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.commentForm {
+  width: 100%;
+}
+
+.comment-writing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+textarea {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  resize: none;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+.register-btn {
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+.cancel-btn {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.comment-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.comment-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
